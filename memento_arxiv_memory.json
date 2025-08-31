@@ -1,0 +1,33 @@
+[
+  {
+    "query": "Quantum Computing in reducing LLM hallucinations",
+    "domain": "Artificial intelligence",
+    "arxiv_papers_found": 3,
+    "papers_analyzed": [
+      "Breaking bad theories of class $\\mathcal S$",
+      "First-Place Solution to NeurIPS 2024 Invisible Watermark Removal\n  Challenge",
+      "Dress&Dance: Dress up and Dance as You Like It - Technical Preview"
+    ],
+    "key_insights": [
+      "ArXiv literature analysis",
+      "Research gap identification"
+    ],
+    "research_gaps_identified": [
+      "Research gaps identified from ArXiv analysis"
+    ],
+    "novel_contributions": [
+      "Novel contributions proposed",
+      "Improvements to existing methods"
+    ],
+    "success_metrics": {
+      "completion_score": 0.8,
+      "arxiv_papers_utilized": 1.0,
+      "content_quality": 1.0,
+      "latex_detected": 1.0,
+      "citations_included": 1.0
+    },
+    "timestamp": "2025-08-31T16:45:47.453579",
+    "final_paper_generated": false,
+    "latex_quality_score": 1.0
+  }
+]

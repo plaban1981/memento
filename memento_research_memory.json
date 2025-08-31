@@ -1,0 +1,462 @@
+[
+  {
+    "query": "mixture of recursion",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.1074,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Proper citations included"
+    ],
+    "timestamp": "2025-08-31T10:50:44.648696",
+    "task_complexity": 81,
+    "final_result": "{\n  \"plan\": [\n    {\n      \"id\": 1,\n      \"description\": \"Try to access alternative databases or tools to conduct literature review for relevant papers on mixture of recursion in computer science.\"\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Attempt to access previous papers and resources to gather appropriate citations and references.\"\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Develop figures, tables, or mathematical formulations based on established knowledge of recursion concepts"
+  },
+  {
+    "query": "Using clustering in embedding retrieval",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.0392,
+      "academic_quality": 0.8
+    },
+    "insights": [],
+    "timestamp": "2025-08-31T11:03:46.573171",
+    "task_complexity": 117,
+    "final_result": "{\n  \"plan\": [\n    {\n      \"id\": 1,\n      \"description\": \"Continuously monitor for a resolution to connection issues to attempt literature review for clustering in embedding retrieval.\"\n    }\n  ]\n}"
+  },
+  {
+    "query": "LLM token Optimization Using Caching",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.1232,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T11:15:19.430313",
+    "task_complexity": 146,
+    "final_result": "{\n  \"plan\": [\n    {\n      \"id\": 1,\n      \"description\": \"Retry the literature search for LLM token optimization and caching using different search tools or terms.\"\n    },\n    {\n      \"id\": 2,\n      \"description\": \"Once the literature search is successful, proceed with extracting and analyzing relevant papers.\"\n    },\n    {\n      \"id\": 3,\n      \"description\": \"Identify research gaps and novel contributions based on the new analysis.\"\n    },\n    {\n      \"id\": 4,\n      \"description\": \"Enhance the L"
+  },
+  {
+    "query": "LLM token Optimization Using Caching",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.0966,
+      "academic_quality": 0.8
+    },
+    "insights": [],
+    "timestamp": "2025-08-31T11:30:49.299590",
+    "task_complexity": 151,
+    "final_result": "{\n  \"plan\": [\n    { \"id\": 1, \"description\": \"Attempt to gather offline resources or databases that could contain literature on LLM token optimization and caching for paper content.\" },\n    { \"id\": 2, \"description\": \"Solicit input or suggestions from colleagues or academic networks for relevant sources that may be accessible.\" },\n    { \"id\": 3, \"description\": \"Develop a preliminary draft of the paper sections based on previous learning and insights from earlier research.\" }\n  ]\n}"
+  },
+  {
+    "query": "Hallucination Index measurement in LLM response",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.019,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T12:06:31.718452",
+    "task_complexity": 152,
+    "final_result": "Research paper structured, citations added, LaTeX format generated, figures and tables created."
+  },
+  {
+    "query": "Prompt Engineering",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.024,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T12:44:37.659224",
+    "task_complexity": 143,
+    "final_result": "The comprehensive research paper on prompt engineering is compiled in LaTeX format, ready for professional presentation."
+  },
+  {
+    "query": "Mixture of recursion",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.0274,
+      "academic_quality": 0.8
+    },
+    "insights": [],
+    "timestamp": "2025-08-31T13:10:00.412664",
+    "task_complexity": 144,
+    "final_result": "{\"plan\": [\n{\"id\": 11, \"description\": \"Submit the final research paper to a relevant academic journal for peer review and publication\"}\n]}"
+  },
+  {
+    "query": "Mixture of Agents",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.9586,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T13:22:34.373424",
+    "task_complexity": 142,
+    "final_result": "\\documentclass{article}\n\\usepackage{amsmath, amssymb, graphicx, booktabs, caption}\n\\usepackage{natbib}\n\\usepackage[utf8]{inputenc}\n\n\\title{A Unified Framework for Mixture of Agents in Computer Science}\n\\author{Author Name \\\\ Institution Name \\\\ Email Address}\n\\date{\\today}\n\n\\begin{document}\n\\maketitle\n\n\\begin{abstract}\nThis paper proposes a unified framework for integrating heterogeneous agents within multi-agent systems. Addressing challenges in scalability, dynamic adaptation, and theoretical "
+  },
+  {
+    "query": "Fine-Tuning LLMs Without Fine-Tuning LLMs",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T13:34:46.454003",
+    "task_complexity": 146,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{graphicx}\n\\usepackage{amsmath, amssymb}\n\\usepackage{booktabs}\n\\usepackage{cite}\n\\usepackage{caption}\n\\usepackage{subcaption}\n\\usepackage{geometry}\n\\geometry{margin=1in}\n\\title{Fine-Tuning LLMs Without Fine-Tuning: A Parameter-Efficient Approach}\n\\author{Author Name \\\\ Department of Computer Science \\\\ University Name \\\\ \\texttt{email@example.com}}\n\\date{}\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nLarge Language Models (LLMs) have revolutionized nat"
+  },
+  {
+    "query": "Mixture of agents improving reasoning",
+    "domain": "computer science",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T13:41:43.106461",
+    "task_complexity": 150,
+    "final_result": "\\\\documentclass[11pt]{article}\n\\\\usepackage{times}\n\\\\usepackage{amsmath, amssymb, amsthm}\n\\\\usepackage{graphicx}\n\\\\usepackage{hyperref}\n\\\\usepackage{cite}\n\\\\usepackage{tikz}\n\\\\usetikzlibrary{shapes.geometric, arrows}\n\\\\title{Enhancing Reasoning Through Mixtures of Agents: An Adaptive Multi-Agent Framework}\n\\\\author{Author Name \\\\\\\\ Department of Computer Science \\\\\\\\ University Name \\\\\\\\ \\\\texttt{email@domain.edu}}\n\\\\date{\\\\today}\n\\\\begin{document}\n\\\\maketitle\n\\\\begin{abstract}\nThis paper explor"
+  },
+  {
+    "query": "observability in agents",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T13:55:52.778050",
+    "task_complexity": 147,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{amsmath, amssymb, amsthm}\n\\usepackage{graphicx}\n\\usepackage{caption}\n\\usepackage{float}\n\\usepackage{booktabs}\n\\usepackage{cite}\n\\usepackage{tikz}\n\\usepackage{geometry}\n\\geometry{margin=1in}\n\n\\title{Observability in Agents: Integrating Dynamic State Estimation with Learning Mechanisms}\n\\author{Author Name\\\\Institute/University\\\\email@domain.com}\n\\date{\\today}\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nObservability is a fundamental concept in control"
+  },
+  {
+    "query": "In Context Learning for Time Series Forecasting",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T14:31:00.149039",
+    "task_complexity": 151,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{amsmath, amssymb, amsfonts, graphicx, booktabs, hyperref}\n\\usepackage[margin=1in]{geometry}\n\\usepackage{cite}\n\\title{In-Context Learning for Time Series Forecasting: A Novel Methodological Framework}\n\\author{Author Name \\\\\nDepartment of Computer Science \\\\\nInstitution Name \\\\\n\\texttt{author.email@example.com}}\n\\date{\\today}\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nTime series forecasting remains a critical and challenging task in numerous scientif"
+  },
+  {
+    "query": "Prompt Optimization",
+    "domain": "Prompt Engineering",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T14:47:36.473794",
+    "task_complexity": 148,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{graphicx}\n\\usepackage{amsmath, amssymb}\n\\usepackage{booktabs}\n\\usepackage{cite}\n\\usepackage{geometry}\n\\usepackage{hyperref}\n\\geometry{margin=1in}\n\n\\title{A Comprehensive Study on Prompt Optimization in Prompt Engineering}\n\\author{Author Name\\\\Institution Name\\\\\\texttt{email@domain.edu}}\n\\date{\\today}\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nPrompt Optimization is emerging as a pivotal technique in the landscape of prompt engineering for large lang"
+  },
+  {
+    "query": "Combining reasoning correction and in context learning for enhanced Time-series forecasting",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.0076,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T14:55:24.812204",
+    "task_complexity": 163,
+    "final_result": "publication-ready LaTeX research paper"
+  },
+  {
+    "query": "Synergistic Prompting for enhanced Time-Series Forecasting",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T15:05:26.224571",
+    "task_complexity": 163,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{graphicx}\n\\usepackage{amsmath, amssymb}\n\\usepackage{booktabs}\n\\usepackage{cite}\n\\usepackage{hyperref}\n\\usepackage{geometry}\n\\geometry{margin=1in}\n\n\\title{Synergistic Prompting for Enhanced Time-Series Forecasting}\n\\author{Author Name\\\\\nDepartment of Artificial Intelligence\\\\\nUniversity/Institute Name\\\\\n\\texttt{email@example.com}}\n\\date{}\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nThis paper introduces a novel framework for synergistic prompting desi"
+  },
+  {
+    "query": "GRPO vs ORPO",
+    "domain": "Reinforcement Learning with Human Feedback",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.0064,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T15:22:27.936042",
+    "task_complexity": 147,
+    "final_result": "publication-ready LaTeX document"
+  },
+  {
+    "query": "Synergistic Prompting for Enhanced Time-Series Forecasting",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T15:26:13.028887",
+    "task_complexity": 162,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{amsmath, amssymb, graphicx, url}\n\\usepackage{natbib}\n\\usepackage{hyperref}\n\\usepackage{booktabs}\n\\title{Synergistic Prompting for Enhanced Time-Series Forecasting}\n\\author{Author Name(s) \\\\ Affiliation(s)}\n\\date{\\today}\n\n\\begin{document}\n\n\\maketitle\n\n\\begin{abstract}\nThis paper presents a novel unified framework that integrates synergistic prompting with ensemble techniques for time-series forecasting. The approach enhances the modeling of temporal depen"
+  },
+  {
+    "query": "Synergistic Prompting for Enhanced Time-Series Forecasting",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T15:37:13.095979",
+    "task_complexity": 160,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amsmath,amssymb}\n\\usepackage{graphicx}\n\\usepackage{booktabs}\n\\usepackage{hyperref}\n\\usepackage{caption}\n\\usepackage{subcaption}\n\\usepackage{natbib}\n\\usepackage{geometry}\n\\geometry{margin=1in}\n\n\\title{Synergistic Prompting for Enhanced Time-Series Forecasting}\n\\author{Anonymous}\n\\date{\\today}\n\n\\begin{document}\n\\maketitle\n\n\\begin{abstract}\nThis paper proposes a unified framework that integrates context-aware prompt engineering w"
+  },
+  {
+    "query": "Synergistic Prompting for Enhanced Time-Series Forecasting",
+    "domain": "Machine Learning",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T16:09:43.409581",
+    "task_complexity": 160,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{amsmath, amssymb, graphicx, booktabs, caption}\n\\usepackage{geometry}\n\\usepackage{natbib}\n\\geometry{letterpaper, margin=1in}\n\\title{Synergistic Prompting for Enhanced Time-Series Forecasting}\n\\author{Author Name\\\\Institution\\\\Email}\n\\date{\\today}\n\n\\begin{document}\n\\maketitle\n\n\\begin{abstract}\nThis paper presents a novel synergistic prompting mechanism designed to enhance time-series forecasting performance. We propose a multi-layer model which integrates "
+  },
+  {
+    "query": "Synergistic Prompting for Enhanced Time-Series Forecasting",
+    "domain": "artificial intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T16:14:44.279947",
+    "task_complexity": 160,
+    "final_result": "\\\\documentclass[11pt]{article}\n\\\\usepackage{graphicx}\n\\\\usepackage{booktabs}\n\\\\usepackage{amsmath}\n\\\\usepackage{natbib}\n\\\\usepackage{geometry}\n\\\\geometry{margin=1in}\n\\\\title{Synergistic Prompting for Enhanced Time-Series Forecasting}\n\\\\author{Author Names}\n\\\\date{\\\\today}\n\n\\\\begin{document}\n\\\\maketitle\n\n\\\\begin{abstract}\nIn this paper, we propose a novel framework that integrates synergistic prompting with traditional time-series forecasting models. Our approach dynamically fine-tunes prompts to"
+  },
+  {
+    "query": "Prompt Optimization techniques",
+    "domain": "Artificial Engineering",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T16:24:45.858531",
+    "task_complexity": 146,
+    "final_result": "\\\\documentclass{article}\n\\\\usepackage{amsmath, amssymb, graphicx, cite, hyperref}\n\\\\begin{document}\n\n\\\\title{Prompt Optimization Techniques in Artificial Engineering: A Unified Approach}\n\\\\author{Author Name \\\\\\\\ Department of Artificial Engineering \\\\\\\\ Institution Name}\n\\\\date{\\\\today}\n\\\\maketitle\n\n\\\\begin{abstract}\nThis paper investigates prompt optimization techniques within the realm of Artificial Engineering. After an extensive literature review, we identify significant research gaps inclu"
+  },
+  {
+    "query": "Mixture of recursions in transformers",
+    "domain": "Large Language Models in Articficial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T16:40:10.868250",
+    "task_complexity": 148,
+    "final_result": "\\\\documentclass[11pt]{article}\n\\\\usepackage[margin=1in]{geometry}\n\\\\usepackage{graphicx}\n\\\\usepackage{amsmath, amssymb, amsthm}\n\\\\usepackage{booktabs}\n\\\\usepackage{cite}\n\\\\usepackage{hyperref}\n\\\\title{Adaptive Recursion in Transformer Architectures: A Mixture Approach}\n\\\\author{Author Name \\\\\\\\ Department of Computer Science \\\\\\\\ Institution Name \\\\\\\\ \\\\texttt{email@example.com}}\n\\\\date{\\\\today}\n\n\\\\begin{document}\n\\\\maketitle\n\n\\\\begin{abstract}\nThis paper introduces an adaptive recursion mechani"
+  },
+  {
+    "query": "Improve Agent reasoning with Reinforcement Learning",
+    "domain": "Artificial Intelligence",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 0.0086,
+      "academic_quality": 0.8
+    },
+    "insights": [],
+    "timestamp": "2025-08-31T19:53:16.934644",
+    "task_complexity": 163,
+    "final_result": "research_paper_enhanced_agent_reasoning.tex"
+  },
+  {
+    "query": "Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning",
+    "domain": "arxiv paper",
+    "approach": "hierarchical_memento",
+    "tools_used": [],
+    "success_metrics": {
+      "completion_score": 0.7,
+      "tools_utilization": 0.0,
+      "content_length": 1.0,
+      "academic_quality": 0.8
+    },
+    "insights": [
+      "Identified research gaps",
+      "Novel contributions identified",
+      "Proper citations included",
+      "LaTeX formatting applied"
+    ],
+    "timestamp": "2025-08-31T19:56:47.141996",
+    "task_complexity": 160,
+    "final_result": "\\documentclass[11pt]{article}\n\\usepackage{amsmath,amssymb,graphicx,booktabs,hyperref}\n\\usepackage[margin=1in]{geometry}\n\\usepackage{cite}\n\\title{Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning}\n\\author{Author Name \\\\ Institution Name}\n\\date{\\today}\n\n\\begin{document}\n\\maketitle\n\n\\begin{abstract}\nThis paper introduces a comprehensive framework for integrating agentic reasoning with external tool utilization in Large Language Models (LLMs) through reinforcement learning ("
+  }
+]

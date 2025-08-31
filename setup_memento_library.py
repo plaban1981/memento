@@ -1,0 +1,283 @@
+#!/usr/bin/env python3
+"""
+Setup Script for Memento Library Research Agent
+Configures the environment and dependencies for using Memento as a library
+"""
+
+import os
+import sys
+import subprocess
+import shutil
+from pathlib import Path
+
+def check_python_version():
+    """Check if Python version is compatible"""
+    if sys.version_info < (3, 9):
+        print("❌ Python 3.9 or higher is required")
+        return False
+    print(f"✅ Python {sys.version_info.major}.{sys.version_info.minor} detected")
+    return True
+
+def check_memento_repository():
+    """Check if Memento repository exists"""
+    memento_path = Path("Memento")
+    if not memento_path.exists():
+        print("❌ Memento repository not found. Please clone it first:")
+        print("   git clone https://github.com/Agent-on-the-Fly/Memento.git")
+        return False
+    
+    # Check for required files
+    required_files = [
+        "client/agent.py",
+        "server/search_tool.py",
+        "server/documents_tool.py",
+        "server/code_agent.py"
+    ]
+    
+    for file_path in required_files:
+        if not (memento_path / file_path).exists():
+            print(f"❌ Required file missing: Memento/{file_path}")
+            return False
+    
+    print("✅ Memento repository structure verified")
+    return True
+
+def install_memento_dependencies():
+    """Install Memento's dependencies"""
+    print("📦 Installing Memento dependencies...")
+    
+    memento_requirements = Path("Memento/requirements.txt")
+    if memento_requirements.exists():
+        try:
+            subprocess.run([
+                sys.executable, "-m", "pip", "install", "-r", str(memento_requirements)
+            ], check=True)
+            print("✅ Memento dependencies installed")
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Failed to install Memento dependencies: {e}")
+            return False
+    else:
+        print("⚠️  Memento requirements.txt not found, installing common dependencies...")
+        
+        # Install common dependencies manually
+        common_deps = [
+            "mcp>=1.0.0",
+            "fastmcp>=0.1.0", 
+            "openai>=1.0.0",
+            "httpx>=0.25.0",
+            "tenacity>=8.0.0",
+            "tiktoken>=0.5.0",
+            "colorlog>=6.0.0",
+            "loguru>=0.7.0",
+            "python-dotenv>=1.0.0",
+            "assemblyai>=0.20.0",
+            "python-pptx>=0.6.0",
+            "Pillow>=10.0.0",
+            "docx2markdown>=0.1.0",
+            "chunkr-ai>=0.1.0",
+            "xmltodict>=0.13.0",
+            "nest-asyncio>=1.5.0",
+            "anyio>=4.0.0",
+            "retry>=0.9.0"
+        ]
+        
+        for dep in common_deps:
+            try:
+                subprocess.run([sys.executable, "-m", "pip", "install", dep], check=True)
+            except subprocess.CalledProcessError:
+                print(f"⚠️  Could not install {dep}, continuing...")
+        
+        print("✅ Common dependencies installed")
+    
+    return True
+
+def install_research_agent_dependencies():
+    """Install additional dependencies for the research agent"""
+    print("📦 Installing research agent dependencies...")
+    
+    research_deps = [
+        "PyPDF2>=3.0.0",
+        "requests>=2.31.0",
+        "beautifulsoup4>=4.12.0",
+        "langchain>=0.1.0",
+        "langchain-openai>=0.0.5",
+        "langchain-google-genai>=0.0.5",
+        "typing-extensions>=4.0.0"
+    ]
+    
+    for dep in research_deps:
+        try:
+            subprocess.run([sys.executable, "-m", "pip", "install", dep], check=True)
+            print(f"✅ Installed {dep}")
+        except subprocess.CalledProcessError:
+            print(f"⚠️  Could not install {dep}")
+    
+    return True
+
+def setup_environment_file():
+    """Create or update .env file with required variables"""
+    env_file = Path(".env")
+    
+    # Read existing .env if it exists
+    existing_vars = {}
+    if env_file.exists():
+        with open(env_file, 'r') as f:
+            for line in f:
+                if '=' in line and not line.strip().startswith('#'):
+                    key, value = line.strip().split('=', 1)
+                    existing_vars[key] = value
+    
+    # Required environment variables
+    required_vars = {
+        "OPENAI_API_KEY": "your_openai_api_key_here",
+        "OPENAI_BASE_URL": "",  # Optional
+        "CHUNKR_API_KEY": "your_chunkr_api_key_here",  # For document processing
+        "ASSEMBLYAI_API_KEY": "your_assemblyai_api_key_here",  # For audio processing
+    }
+    
+    # Update with new variables
+    for key, default_value in required_vars.items():
+        if key not in existing_vars:
+            existing_vars[key] = default_value
+    
+    # Write updated .env file
+    with open(env_file, 'w') as f:
+        f.write("# Memento Library Research Agent Configuration\n")
+        f.write("# Generated by setup_memento_library.py\n\n")
+        
+        f.write("# Required: OpenAI API for LLM models\n")
+        f.write(f"OPENAI_API_KEY={existing_vars['OPENAI_API_KEY']}\n")
+        f.write(f"OPENAI_BASE_URL={existing_vars['OPENAI_BASE_URL']}\n\n")
+        
+        f.write("# Optional: Document processing services\n")
+        f.write(f"CHUNKR_API_KEY={existing_vars['CHUNKR_API_KEY']}\n")
+        f.write(f"ASSEMBLYAI_API_KEY={existing_vars['ASSEMBLYAI_API_KEY']}\n\n")
+        
+        f.write("# Memento Configuration\n")
+        f.write("MEMENTO_LOG_LEVEL=INFO\n")
+        f.write("MEMENTO_MAX_CYCLES=3\n")
+        f.write("MEMENTO_MAX_TOKENS=175000\n")
+    
+    print(f"✅ Environment file created/updated: {env_file}")
+    
+    if existing_vars["OPENAI_API_KEY"] == "your_openai_api_key_here":
+        print("⚠️  Please update .env file with your actual OpenAI API key")
+    
+    return True
+
+def create_example_script():
+    """Create an example usage script"""
+    example_script = """#!/usr/bin/env python3
+'''
+Example usage of Memento Library Research Agent
+Run this script to test the research paper generation functionality
+'''
+
+import asyncio
+from memento_library_research_agent import MementoResearchAgent
+
+async def main():
+    # Create research agent
+    agent = MementoResearchAgent()
+    
+    # Example research query
+    result = await agent.generate_research_paper(
+        research_query="Large language models for code generation",
+        domain="artificial intelligence"
+    )
+    
+    if result["success"]:
+        print(f"✅ Research paper generated!")
+        print(f"📄 Saved to: {result['result_file']}")
+        print(f"🔧 Tools used: {', '.join(result['tools_used'])}")
+    else:
+        print(f"❌ Failed: {result['error']}")
+    
+    # Cleanup
+    await agent.cleanup()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+"""
+    
+    with open("example_memento_usage.py", 'w') as f:
+        f.write(example_script)
+    
+    print("✅ Example script created: example_memento_usage.py")
+
+def verify_setup():
+    """Verify that the setup is working correctly"""
+    print("\n🔍 Verifying setup...")
+    
+    try:
+        # Test imports
+        sys.path.insert(0, str(Path("Memento/client")))
+        sys.path.insert(0, str(Path("Memento/server")))
+        
+        from agent import HierarchicalClient, OpenAIBackend
+        print("✅ Memento agent imports working")
+        
+        # Test environment variables
+        from dotenv import load_dotenv
+        load_dotenv()
+        
+        if os.getenv("OPENAI_API_KEY") and os.getenv("OPENAI_API_KEY") != "your_openai_api_key_here":
+            print("✅ OpenAI API key configured")
+        else:
+            print("⚠️  OpenAI API key not configured - please update .env file")
+        
+        print("✅ Setup verification completed")
+        return True
+        
+    except ImportError as e:
+        print(f"❌ Import error: {e}")
+        return False
+    except Exception as e:
+        print(f"❌ Setup verification failed: {e}")
+        return False
+
+def main():
+    """Main setup function"""
+    print("🔧 Memento Library Research Agent Setup")
+    print("=" * 50)
+    
+    # Check prerequisites
+    if not check_python_version():
+        return False
+    
+    if not check_memento_repository():
+        return False
+    
+    # Install dependencies
+    if not install_memento_dependencies():
+        print("❌ Failed to install Memento dependencies")
+        return False
+    
+    if not install_research_agent_dependencies():
+        print("❌ Failed to install research agent dependencies")
+        return False
+    
+    # Setup environment
+    if not setup_environment_file():
+        print("❌ Failed to setup environment file")
+        return False
+    
+    # Create example script
+    create_example_script()
+    
+    # Verify setup
+    if not verify_setup():
+        print("❌ Setup verification failed")
+        return False
+    
+    print("\n🎉 Setup completed successfully!")
+    print("\nNext steps:")
+    print("1. Update .env file with your OpenAI API key")
+    print("2. Run: python memento_library_research_agent.py")
+    print("3. Or try: python example_memento_usage.py")
+    
+    return True
+
+if __name__ == "__main__":
+    success = main()
+    sys.exit(0 if success else 1) 

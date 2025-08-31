@@ -1,0 +1,61 @@
+# Memento AI Research Paper Generator Requirements
+
+# Core LangGraph and LangChain (based on AIwithhassan's implementation)
+langgraph>=0.0.40
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-google-genai>=0.0.5
+langchain-community>=0.0.20
+langchain-core>=0.1.20
+typing-extensions>=4.0.0
+
+# LLM APIs
+openai>=1.0.0
+google-generativeai>=0.3.0
+
+# Vector stores and embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Web scraping and search
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+duckduckgo-search>=3.9.0
+selenium>=4.15.0
+
+# Academic research tools (from AIwithhassan's implementation)
+PyPDF2>=3.0.0
+
+# Text processing
+nltk>=3.8.0
+spacy>=3.7.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Async support
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2
+
+# Database for checkpointing
+sqlite3
+
+# Logging and utilities
+colorlog>=6.7.0
+tqdm>=4.65.0
+
+# Optional: For enhanced web scraping
+playwright>=1.40.0
+crawl4ai>=0.2.0
+
+# Optional: For PDF processing
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+
+# Optional: For enhanced search
+google-search-results>=2.4.0
+serpapi>=0.1.0 
